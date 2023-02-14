@@ -2,11 +2,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+.ms-nav{
     height: 4.375rem;
-    background-color: red;
 }
 
+.ms-logo{
+    height: 100%;
+    max-width: 9.375rem;
+}
 main{
     height: calc(100vh - 4.375rem);
 }
