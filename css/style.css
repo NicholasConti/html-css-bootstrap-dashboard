@@ -21,10 +21,6 @@ aside{
 }
 .ms-dash-body{
     overflow-y: auto;
-    width: calc(100% - 70px);
+    flex-grow: 1;
 }
 
-.ms-tags{
-    padding: 25px;
-    background-color: yellow;
-}
