@@ -15,7 +15,9 @@ main{
 }
 
 aside{
-    background-color: blue;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    color: white;
 }
 .ms-dash-body{
     overflow-y: auto;
