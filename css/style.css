@@ -1,3 +1,25 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    height: 4.375rem;
+    background-color: red;
+}
+
+main{
+    height: calc(100vh - 4.375rem);
+}
+
+aside{
+    background-color: blue;
+}
+.ms-dash-body{
+    overflow-y: auto;
+    width: calc(100% - 70px);
+}
+
+.ms-tags{
+    padding: 25px;
+    background-color: yellow;
+}
