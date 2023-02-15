@@ -40,3 +40,10 @@ tbody td , .ms-span{
 .ms-badge{
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+/* ------------------------------------------------------ */
+aside li:hover , aside div:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
