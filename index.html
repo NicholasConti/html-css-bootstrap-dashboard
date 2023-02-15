@@ -28,7 +28,7 @@
                   </form>
             </div>
             <div>
-                <ul class="d-flex gap-3 list-unstyled">
+                <ul class="d-flex gap-3 list-unstyled my-auto">
                     <li class="d-none d-lg-block"><i class="fa-solid fa-list-ul"></i></li>
                     <li class="d-none d-lg-block"><i class="fa-solid fa-circle-question"></i></li>
                     <li class="d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
@@ -38,7 +38,7 @@
         </nav>
     </header>
     <main class="d-flex">
-        <aside class="d-flex flex-column justify-content-between py-4 px-3">
+        <aside class="d-flex flex-column justify-content-between py-4 px-3 flex-shrink-0">
             <ul class="list-unstyled">
                 <li class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-house me-lg-3"></i><span class="d-none d-lg-block">Home</span></li>
                 <li class="my-2 d-flex align-items-center justify-content-center"><i class="fa-solid fa-chart-simple me-lg-3"></i><span class="d-none d-lg-block">Stats</span></li>
@@ -78,7 +78,32 @@
                     </div>
                </div>
             </section>
-            <section class="ms-cards">
+            <section class="ms-cards px-2 py-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-xxl-8">
+                            <div class="card">
+                                <h5 class="card-header">Prossime classi</h5>
+                                <div class="card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                              <th scope="col" class="w-50">Nome</th>
+                                              <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                                              <th scope="col" class="d-none d-md-table-cell">ROI</th>
+                                              <th scope="col">Stato</th>
+                                              <th scope="col">Azioni</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                          </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xxl-4"></div>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
