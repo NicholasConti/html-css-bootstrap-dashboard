@@ -24,3 +24,7 @@ aside{
     flex-grow: 1;
 }
 
+.ms-size{
+    width: 6.25rem;
+    text-align: center;
+}
