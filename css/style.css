@@ -40,14 +40,17 @@ tbody td , .ms-span{
 .ms-badge{
     background-color: rgba(0, 0, 0, 0.2);
 }
-
 /* ---------------------------------------------*/
 /* ANIMATION ASIDE */
 aside li:hover , aside div:hover{
     background-color: grey;
     cursor: pointer;
 }
-
+/* OFFCANVAS */
+#ms-btn-offcanvas:hover{
+    color: black;
+    background-color: white;
+}
 #ms-offcanvas{
     width: 100%;
 }
