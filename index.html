@@ -28,11 +28,20 @@
                   </form>
             </div>
             <div>
-                <ul class="d-flex gap-3 list-unstyled my-auto">
-                    <li class="d-none d-lg-block"><i class="fa-solid fa-list-ul"></i></li>
-                    <li class="d-none d-lg-block"><i class="fa-solid fa-circle-question"></i></li>
-                    <li class="d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                    <li><i class="fa-solid fa-bell text-warning"></i></li>
+                <ul class="d-flex list-unstyled my-auto">
+                    <li class="d-none d-lg-block"><button class="btn"><i class="fa-solid fa-list-ul text-secondary"></i></button></li>
+                    <li class="d-none d-lg-block"><button class="btn"><i class="fa-solid fa-circle-question text-secondary"></i></button></li>
+                    <li class="d-none d-lg-block"><button class="btn"><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></button></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn type="button" data-bs-toggle="dropdown" aria-expanded="false""><i class="fa-solid fa-bell text-warning"></i></button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                              </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -59,15 +68,15 @@
                         <div class="col-12 col-md-4 ">
                             <div class="d-flex align-items-center">
                                 <h5 class="me-2">Boolean</h5>
-                                <span class="badge text-bg-secondary">Piano Blaze</span>
+                                <span class="badge">Piano Blaze</span>
                             </div>
                             <div>
-                                <span class="badge text-bg-secondary">3 App</span>
+                                <span class="badge ms-badge">3 App</span>
                                 <i class="fa-solid fa-angles-right"></i>
-                                <span class="badge text-bg-secondary d-xl-none">+</span>
-                                <span class="badge text-bg-secondary d-none d-xl-inline-block">Boolean mobile app</span>
-                                <span class="badge text-bg-secondary d-none d-xl-inline-block">Boolean web app</span>
-                                <span class="badge text-bg-secondary d-none d-xl-inline-block">Boolean blog app</span>
+                                <span class="badge d-xl-none ms-badge">+</span>
+                                <span class="badge d-none d-xl-inline-block ms-badge">Boolean mobile app</span>
+                                <span class="badge d-none d-xl-inline-block ms-badge">Boolean web app</span>
+                                <span class="badge d-none d-xl-inline-block ms-badge">Boolean blog app</span>
                                
                             </div>
                         </div>
