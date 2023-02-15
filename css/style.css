@@ -28,3 +28,11 @@ aside{
     width: 6.25rem;
     text-align: center;
 }
+
+.ms-img-table{
+    height: 1.875rem;
+}
+
+tbody td{
+    font-size: 14px;
+}
