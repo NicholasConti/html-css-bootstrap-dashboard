@@ -41,9 +41,19 @@ tbody td , .ms-span{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* ------------------------------------------------------ */
+/* ---------------------------------------------*/
+/* ANIMATION ASIDE */
 aside li:hover , aside div:hover{
     background-color: grey;
     cursor: pointer;
 }
 
+#ms-offcanvas{
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    #ms-offcanvas{
+        width: 800px;
+    }
+}
